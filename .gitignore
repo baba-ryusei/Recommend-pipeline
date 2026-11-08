@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+
+# Local data (Kaggle downloads etc.) - never commit
+/data/
+
+# Secrets / local config
+.env
+kaggle.json
+*.pem
+*-key.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
